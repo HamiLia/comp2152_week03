@@ -27,7 +27,7 @@ for j in range(1, 21, 2): #simulate of 20 rounds, stoppimg by2
     monsterRoll = random.choice(diceOptions)
 
     # Calculate the weapons
-    heroTotal = weapons[herpRoll - 1]
+    heroTotal = weapons[heroRoll - 1]
     monsterTotal = weapons[monsterRoll - 1]
 
     # Calculate total stregth
